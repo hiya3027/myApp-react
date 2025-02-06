@@ -1,0 +1,29 @@
+*{
+  background-color: blanchedalmond;
+}
+body{
+  padding: 20px;
+  
+  font-size: large;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.nav-list{
+  list-style: none;
+  display: flex;
+  
+}
+.nav-list-items{
+  padding-left: 20px;
+  font-size: larger;
+}
