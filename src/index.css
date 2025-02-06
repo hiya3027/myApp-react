@@ -1,5 +1,5 @@
 *{
-  background-color: blanchedalmond;
+  background-color:blanchedalmond;
 }
 body{
   padding: 20px;
@@ -17,6 +17,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: left;
+  
 }
 .nav-list{
   list-style: none;
@@ -26,4 +27,12 @@ header{
 .nav-list-items{
   padding-left: 20px;
   font-size: larger;
+}
+a{
+  text-decoration: none;
+  color: black;
+  z-index: 999;
+}
+a:hover{
+  color: dodgerblue;
 }
